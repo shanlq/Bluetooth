@@ -7,15 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181A51BF1F9EE282003D8A1F /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A51B71F9EE282003D8A1F /* DES3Util.m */; };
+		181A51C01F9EE282003D8A1F /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A51B91F9EE282003D8A1F /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		181A51C11F9EE282003D8A1F /* NoBase64DES.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A51BC1F9EE282003D8A1F /* NoBase64DES.m */; };
+		181A51C21F9EE282003D8A1F /* NSString+NSReplace.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A51BE1F9EE282003D8A1F /* NSString+NSReplace.m */; };
+		181A51C51F9EE442003D8A1F /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A51C41F9EE442003D8A1F /* ThirdViewController.m */; };
 		1820C5441F3BE1AF00BDA57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820C5431F3BE1AF00BDA57F /* main.m */; };
 		1820C5471F3BE1AF00BDA57F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820C5461F3BE1AF00BDA57F /* AppDelegate.m */; };
 		1820C54A1F3BE1AF00BDA57F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820C5491F3BE1AF00BDA57F /* ViewController.m */; };
 		1820C54D1F3BE1AF00BDA57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820C54B1F3BE1AF00BDA57F /* Main.storyboard */; };
 		1820C54F1F3BE1AF00BDA57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1820C54E1F3BE1AF00BDA57F /* Assets.xcassets */; };
 		1820C5521F3BE1AF00BDA57F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1820C5501F3BE1AF00BDA57F /* LaunchScreen.storyboard */; };
+		1820C55B1F3BE60200BDA57F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1820C55A1F3BE60200BDA57F /* CoreBluetooth.framework */; };
+		1820C5651F3C32B800BDA57F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1820C5641F3C32B800BDA57F /* Images.xcassets */; };
+		186EB49B1F482AED0067CA6C /* shake副本.wav in Resources */ = {isa = PBXBuildFile; fileRef = 186EB49A1F482AED0067CA6C /* shake副本.wav */; };
+		186EB4A21F4830040067CA6C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186EB4A11F4830040067CA6C /* SecondViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		186EB4A61F4831E80067CA6C /* shake_logo_down副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EB4A51F4831E80067CA6C /* shake_logo_down副本.png */; };
+		186EB4A81F4832260067CA6C /* shake_logo_up副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EB4A71F4832260067CA6C /* shake_logo_up副本.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181A51B61F9EE282003D8A1F /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		181A51B71F9EE282003D8A1F /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		181A51B81F9EE282003D8A1F /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		181A51B91F9EE282003D8A1F /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		181A51BA1F9EE282003D8A1F /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		181A51BB1F9EE282003D8A1F /* NoBase64DES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoBase64DES.h; sourceTree = "<group>"; };
+		181A51BC1F9EE282003D8A1F /* NoBase64DES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoBase64DES.m; sourceTree = "<group>"; };
+		181A51BD1F9EE282003D8A1F /* NSString+NSReplace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSReplace.h"; sourceTree = "<group>"; };
+		181A51BE1F9EE282003D8A1F /* NSString+NSReplace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSReplace.m"; sourceTree = "<group>"; };
+		181A51C31F9EE442003D8A1F /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		181A51C41F9EE442003D8A1F /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		1820C53F1F3BE1AF00BDA57F /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1820C5431F3BE1AF00BDA57F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1820C5451F3BE1AF00BDA57F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +48,13 @@
 		1820C54E1F3BE1AF00BDA57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1820C5511F3BE1AF00BDA57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1820C5531F3BE1AF00BDA57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1820C55A1F3BE60200BDA57F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1820C5641F3C32B800BDA57F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		186EB49A1F482AED0067CA6C /* shake副本.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "shake副本.wav"; sourceTree = "<group>"; };
+		186EB4A01F4830040067CA6C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		186EB4A11F4830040067CA6C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		186EB4A51F4831E80067CA6C /* shake_logo_down副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_logo_down副本.png"; sourceTree = "<group>"; };
+		186EB4A71F4832260067CA6C /* shake_logo_up副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shake_logo_up副本.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +62,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1820C55B1F3BE60200BDA57F /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181A51B51F9EE282003D8A1F /* 3DESiOS */ = {
+			isa = PBXGroup;
+			children = (
+				181A51B61F9EE282003D8A1F /* DES3Util.h */,
+				181A51B71F9EE282003D8A1F /* DES3Util.m */,
+				181A51B81F9EE282003D8A1F /* GTMBase64.h */,
+				181A51B91F9EE282003D8A1F /* GTMBase64.m */,
+				181A51BA1F9EE282003D8A1F /* GTMDefines.h */,
+				181A51BB1F9EE282003D8A1F /* NoBase64DES.h */,
+				181A51BC1F9EE282003D8A1F /* NoBase64DES.m */,
+				181A51BD1F9EE282003D8A1F /* NSString+NSReplace.h */,
+				181A51BE1F9EE282003D8A1F /* NSString+NSReplace.m */,
+			);
+			path = 3DESiOS;
+			sourceTree = "<group>";
+		};
 		1820C5361F3BE1AF00BDA57F = {
 			isa = PBXGroup;
 			children = (
 				1820C5411F3BE1AF00BDA57F /* test */,
 				1820C5401F3BE1AF00BDA57F /* Products */,
+				1820C5591F3BE60100BDA57F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +105,23 @@
 		1820C5411F3BE1AF00BDA57F /* test */ = {
 			isa = PBXGroup;
 			children = (
+				181A51B51F9EE282003D8A1F /* 3DESiOS */,
+				186EB4A71F4832260067CA6C /* shake_logo_up副本.png */,
+				186EB4A51F4831E80067CA6C /* shake_logo_down副本.png */,
+				186EB49A1F482AED0067CA6C /* shake副本.wav */,
 				1820C5451F3BE1AF00BDA57F /* AppDelegate.h */,
 				1820C5461F3BE1AF00BDA57F /* AppDelegate.m */,
 				1820C5481F3BE1AF00BDA57F /* ViewController.h */,
 				1820C5491F3BE1AF00BDA57F /* ViewController.m */,
+				186EB4A01F4830040067CA6C /* SecondViewController.h */,
+				186EB4A11F4830040067CA6C /* SecondViewController.m */,
+				181A51C31F9EE442003D8A1F /* ThirdViewController.h */,
+				181A51C41F9EE442003D8A1F /* ThirdViewController.m */,
 				1820C54B1F3BE1AF00BDA57F /* Main.storyboard */,
 				1820C54E1F3BE1AF00BDA57F /* Assets.xcassets */,
 				1820C5501F3BE1AF00BDA57F /* LaunchScreen.storyboard */,
 				1820C5531F3BE1AF00BDA57F /* Info.plist */,
+				1820C5641F3C32B800BDA57F /* Images.xcassets */,
 				1820C5421F3BE1AF00BDA57F /* Supporting Files */,
 			);
 			path = test;
@@ -77,6 +133,14 @@
 				1820C5431F3BE1AF00BDA57F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1820C5591F3BE60100BDA57F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1820C55A1F3BE60200BDA57F /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +203,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1820C5521F3BE1AF00BDA57F /* LaunchScreen.storyboard in Resources */,
+				1820C5651F3C32B800BDA57F /* Images.xcassets in Resources */,
 				1820C54F1F3BE1AF00BDA57F /* Assets.xcassets in Resources */,
+				186EB49B1F482AED0067CA6C /* shake副本.wav in Resources */,
+				186EB4A61F4831E80067CA6C /* shake_logo_down副本.png in Resources */,
 				1820C54D1F3BE1AF00BDA57F /* Main.storyboard in Resources */,
+				186EB4A81F4832260067CA6C /* shake_logo_up副本.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186EB4A21F4830040067CA6C /* SecondViewController.m in Sources */,
+				181A51C01F9EE282003D8A1F /* GTMBase64.m in Sources */,
 				1820C54A1F3BE1AF00BDA57F /* ViewController.m in Sources */,
+				181A51BF1F9EE282003D8A1F /* DES3Util.m in Sources */,
 				1820C5471F3BE1AF00BDA57F /* AppDelegate.m in Sources */,
+				181A51C51F9EE442003D8A1F /* ThirdViewController.m in Sources */,
 				1820C5441F3BE1AF00BDA57F /* main.m in Sources */,
+				181A51C11F9EE282003D8A1F /* NoBase64DES.m in Sources */,
+				181A51C21F9EE282003D8A1F /* NSString+NSReplace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,11 +347,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SA7XF3YG4;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = slq.com.test;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = slq.com.y;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
@@ -285,11 +368,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SA7XF3YG4;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = slq.com.test;
+				PRODUCT_BUNDLE_IDENTIFIER = slq.com.y;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -312,6 +403,7 @@
 				1820C5581F3BE1AF00BDA57F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

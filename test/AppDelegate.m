@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [[SecondViewController alloc] init];
+//    self.window.rootViewController = [[ThirdViewController alloc] init];
+    [self.window makeKeyWindow];
+    
     return YES;
 }
 
